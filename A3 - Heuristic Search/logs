@@ -1,0 +1,22 @@
+?- example(C,P).
+Nodes expanded = 67
+C = 25,
+P = [a, b, e, d, c, f, a] ;
+Nodes expanded = 69
+C = 26,
+P = [a, f, c, d, e, b, a] ;
+false.
+
+
+?- example2(C, P).
+Nodes expanded = 1
+C = 0,
+P = [a, a] ;
+false.
+
+
+?- example3(C,P).
+Nodes expanded = 4
+C = 3,
+P = [a, b, a] ;
+false.
